@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container content">
+        <section class="image">
+            {% for contents, href in content.items %}
+                {% for hrefs,src in href.items %}
+                    <div class="contents">
+                            <div class="card" id="list">
+                                <a href="{% url 'detail' hrefs %}">
+                                    <img class="card-img-top" src={{ src }}
+                                        alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <p class="card-title">{{ contents }}</p>
+                                </a>
+                                </a>
+                            </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </section>
+    </div>
+{% endblock %}

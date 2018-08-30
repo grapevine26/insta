@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container content">
+    <div class="mainContent">
+        <div class="image">
+            <div class="card" style="width: 45rem;">
+                <img class="card-img-top" src={{ list.image }} alt="Card image cap">
+                <div class="card-body">
+                    <div class="icon">
+                        <div>
+                            <a href="#">
+                                <img src="{% static 'img/like.png' %}" class="mini" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="{% static 'img/bubble.png' %}" class="mini" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="{% static 'img/download.png' %}" class="mini" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <ul>
+                            {% for key, value in list.content.items %}
+                            <li>
+                                <div>
+                                    <a href="#">{{ key }}</a>
+                                    <span class="card-text">{{ value }}</span>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body section">
+                    <span>{{ list.like }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="contentsList">
+            {% for contents, href in list.list.items %}
+            {% for hrefs,src in href.items %}
+            <div class="contentdetail">
+                <div class="contentsdetails">
+                    <div class="card ">
+                        <a href="{% url 'detail' hrefs %}">
+                            <img class="card-img-top" src={{ src }}
+                                alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title">{{ contents }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
