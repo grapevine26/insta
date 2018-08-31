@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02acec72-86bf-4213-9bc8-5d757a7c3b96" name="Default Changelist" comment="" />
+    <list default="true" id="02acec72-86bf-4213-9bc8-5d757a7c3b96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/detail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail_headless.png" beforeDir="false" afterPath="$PROJECT_DIR$/detail_headless.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_headless.png" beforeDir="false" afterPath="$PROJECT_DIR$/search_headless.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
           <entry key="css" value="220" />
           <entry key="dummy" value="28" />
           <entry key="html" value="1413" />
-          <entry key="py" value="7273" />
+          <entry key="py" value="7330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -48,7 +56,7 @@
           <entry key="CSS" value="220" />
           <entry key="HTML" value="1413" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="7273" />
+          <entry key="Python" value="7330" />
         </counts>
       </usages-collector>
     </session>
@@ -106,14 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="71" column="121" lean-forward="true" selection-start-line="71" selection-start-column="121" selection-end-line="71" selection-end-column="121" />
-              <folding>
-                <element signature="e#23#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -121,10 +126,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="76">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
-                <element signature="e#23#53#0" expanded="true" />
+                <element signature="e#22#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,17 +150,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setting/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="190">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instagram/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="432">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -181,6 +186,9 @@
       <find>info</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -196,10 +204,11 @@
         <option value="$PROJECT_DIR$/instagram/templates/detail.html" />
         <option value="$PROJECT_DIR$/instagram/templates/list.html" />
         <option value="$PROJECT_DIR$/instagram/templates/home.html" />
-        <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/instagram/views.py" />
-        <option value="$PROJECT_DIR$/detail.py" />
         <option value="$PROJECT_DIR$/instagram/static/css/main.css" />
+        <option value="$PROJECT_DIR$/setting/settings.py" />
+        <option value="$PROJECT_DIR$/search.py" />
+        <option value="$PROJECT_DIR$/detail.py" />
       </list>
     </option>
   </component>
@@ -209,6 +218,7 @@
     <option name="width" value="1671" />
     <option name="height" value="1026" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -433,7 +443,7 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
@@ -564,33 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="71" column="121" lean-forward="true" selection-start-line="71" selection-start-column="121" selection-end-line="71" selection-end-column="121" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setting/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/instagram/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -603,8 +586,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/instagram/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="432">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>

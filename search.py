@@ -1,6 +1,5 @@
 #-*- coding:utf-8 -*-
-
-from selenium import webdriver
+from  selenium import  webdriver
 import time
 import re
 from bs4 import BeautifulSoup
