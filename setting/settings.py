@@ -26,8 +26,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-export
-
 # Application definition
 
 INSTALLED_APPS = [
